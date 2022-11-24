@@ -1,0 +1,153 @@
+
+#task2
+def containsWGU(mystring):
+    return  "WGU" in mystring
+
+# Student code goes here
+
+   # expected output: True
+
+print(containsTCU('WGU College of IT'))
+
+   # expected output: False
+
+print(containsTCU('Night Owls Rock'))
+
+#task3
+def containsWGU(mystring):
+    return  "WGU" in mystring
+
+# Student code goes here
+
+# expected output: True
+
+print(containsWGU('WGU College of IT'))
+
+# expected output: False
+
+print(containsWGU('Night Owls Rock'))
+
+#task4
+def printWords(mystring):
+    print(mystring.split(" "))#split for whitespace
+
+# Student code goes here
+
+# expected output: ['TCU', 'College', 'of', 'IT']
+
+printWords('WGU College of IT')   
+
+# expected output: ['Night', 'Owls', 'Rock']
+
+printWords('Night Owls Rock')
+
+#task5
+
+def combineWords(words):
+
+# Student code goes here
+
+   return " ".join(words)#join method with whitespace
+
+# expected output: TCU College of IT
+
+print(combineWords(['WGU', 'College', 'of', 'IT']))
+
+# expected output: Night Owls Rock
+
+print(combineWords(['Night', 'Owls', 'Rock']))
+
+#task6
+
+def replaceWGU(mystring):
+    print(mystring.replace("WGU","Western Governors University"))
+
+# Student code goes here
+
+   
+
+# expected output: Western Governors University Rocks
+
+replaceWGU('WGU Rocks')
+
+   
+
+# expected output: Hello, Western Governors University
+
+replaceWGU('Hello, WGUU')
+
+#task7
+
+def removeWGU(mystring):
+    string=mystring.split(" ")
+    if string[0]=="WGU":
+        return mystring
+    else:
+        return mystring.replace("WGU","")
+
+# Student code goes here
+
+   
+
+# expected output: TCU Rocks
+
+print(removeTCU('WGU Rocks'))
+
+   
+
+# expected output: Hello, John
+
+print(removeTCU('Hello, WGUJohn'))
+
+#task8
+
+def removeSpaces(string1, string2):
+    return (string1.rstrip()+string2.lstrip())#rstrip for trailing whitspace and lstrip for leading whitspace
+
+# Student code goes here
+
+   
+
+# expected output: TCU Rocks-You know it!
+
+print(removeSpaces('WGU Rocks    ', ' -You know it!'))
+
+   
+
+# expected output: Welcome TCU-IT Students
+
+print(removeSpaces('Welcome WGU ', ' -IT Students'))
+
+#task9
+def displayHourlyRate(rate):
+   print( round(rate,2))#using round function
+
+# Student code goes here
+
+# expected output: $34.79
+
+displayHourlyRate(34.789123)   
+
+# expected output: $24.12
+
+displayHourlyRate(24.123456)
+
+#task10
+
+def countUpper(mystring):
+    count=0
+    for i in mystring:#for loop to loop all letter
+        if i.isupper():#use isupper to check if uppercase
+            count=count+1
+    return count
+            
+
+# Student code goes here
+
+# expected output: 4
+
+print(countUpper('Welcome to WGU'))
+
+# expected output: 2
+
+print(countUpper('Hello, Mary'))
