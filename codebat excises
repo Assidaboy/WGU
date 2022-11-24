@@ -1,0 +1,36 @@
+#MISSING CHAR
+
+def missing_char(str, n):
+  return str[:n] + str[n+1:]
+  
+#making tags
+
+def make_tags(tag, word):
+
+   return "<"+tag+">"+word+"</"+tag+">
+   
+ def extra_end(str):
+  """
+  Given a string, return a new string made of 3 copies of the last 2 chars 
+  of the original string. The string length will be at least 2. 
+  """
+  return str[-2:]*3
+  
+  #making double
+  
+def double_char(str):
+  result = ''
+  for char in str:
+       result += char * 2
+return result
+
+
+#count_hi
+def count_hi(str):
+  sum = 0
+  ## Loop to length-1 and access index i and i+1
+  ## in the loop.
+  for i in range(len(str)-1):
+    if str[i:i+2] == 'hi':
+      sum = sum + 1
+  return sum
