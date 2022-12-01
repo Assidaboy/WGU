@@ -1,0 +1,79 @@
+
+task 1
+
+Python program to add two numbers using function
+def add_num(a,b):#function for addition
+    sum=a+b;
+    return sum; #return value
+num1=25  #variable declaration
+num2=55
+print("The sum is",add_num(num1,num2)
+
+task 2
+
+run your function and print the result with integers 2 and 8 
+# expected outcome: 10 
+def funsum(x,y):
+   s = x + y
+   return s# p
+print(funsum(7,9)
+
+task 3
+
+task 4
+# use the range method to print out numbers 6-12
+for i in range(6, 12):
+    print(i, end=' ')
+    
+    
+task 5
+# create a list containing the names Dana, Cemal, Jessica, Mike, and Dana
+names = ['Dana', 'Cemal', 'Jessica', 'Mike',  'Dana']
+
+task 6
+
+# Print the length of the list.
+
+# expected outcome: 5
+
+print(len(names))
+
+
+# Task 7
+# Check to see if David is in the list. If not in the list, add her and print the list.
+
+# expected outcome: ['Dana', 'Cemal', 'Jessica', 'Mike', 'Dana', 'David']
+ 
+# if David not in the list mynames
+if 'David' not in mynames:
+# add her to the list
+mynames.append('David')
+# print the list mynames
+print(mynames)
+
+
+# Task 8
+# Print a single string containing all of the names separated by commas
+
+# expected outcome: Dana, Cemal, Jessica, Mike, Dana, David
+
+print(', '.join(mynames))
+
+# Task 9
+# Print only the names Dana and Mike from myNames. Note the date type below.
+
+# expected outcome: ["Mike","Dana"]
+
+print(mynames[3:5])
+
+# Task 10
+
+# ensure that each name is only listed once and print the list of unique values
+# expected outcome: ['Dana', 'Cemal', 'Jessica', 'Mike', 'David'] *note: order of items in list may vary
+
+print(list(set(mynames)))
+
+
+
+
+
