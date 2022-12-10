@@ -1,0 +1,64 @@
+
+# ---- Math Module --- ##
+import math
+ 
+# Task 1
+# use the math module to determine the factorial of the number 7 and print the result
+ 
+# expected outcome: 5040
+ print(math.factorial(7))
+ 
+ 
+ 
+# Task 2 
+# use the math module to determine the square root of the number 27 and print the result
+ 
+# expected outcome: 5.196152422706632
+ print(math.sqrt(27))
+ 
+# Task 3 
+# use the math module to determine the largest integer less than or equal to 15.87 and print the result 
+ 
+# expected outcome: 15 
+ print(math.floor(15.87)
+ 
+ 
+# Task 4 
+# use the math module to determine the smallest integer integer greater than or equal to 15.87 and print the result 
+ 
+# expected outcome: 16 
+print(math.ceil(15.87)
+
+
+
+ 
+# Task 5 
+# use the math module to determine e to the power of 4 
+ 
+# expected outcome: 54.598150033144236 
+print(math.pow(e**4))
+
+ 
+# Task 6 
+# complete the function that determines the nearest whole number for x and prints the result
+def nearest(x):
+   return round(math.sqrt(x)
+
+
+nearest(15.87) #expected result: 16
+nearest(7.21) #expected result: 7
+ 
+ 
+ 
+ 
+ 
+#Task 7
+# complete the function that determines the square root of x, rounded to the nearest whole number.
+def square(x):
+   return ceil(math.sqrt(x)
+
+ 
+square(38)  #expected result: 6
+square(58)  #expected result: 8
+ 
+ 
